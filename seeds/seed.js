@@ -1,4 +1,5 @@
-//this is where you'll seed the database
+
+ 
 const sequelize = require('../config/connection');
 const { User, Project } = require('../models');
 
@@ -24,3 +25,5 @@ const seedDatabase = async () => {
 };
 
 seedDatabase();
+
+//end code
