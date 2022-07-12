@@ -1,4 +1,4 @@
-
+//code goes here
  
 const sequelize = require('../config/connection');
 const { User, Project } = require('../models');
@@ -25,5 +25,3 @@ const seedDatabase = async () => {
 };
 
 seedDatabase();
-
-//end code
