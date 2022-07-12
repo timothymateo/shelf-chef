@@ -1,3 +1,4 @@
+//this is where you'll seed the database
 const sequelize = require('../config/connection');
 const { User, Project } = require('../models');
 
